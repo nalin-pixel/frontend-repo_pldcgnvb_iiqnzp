@@ -3,9 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 200 ms
+  VITE v5.4.20  ready in 251 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.20.224:3000/
-2:37:02 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/GalleryContact.jsx:18:97: ERROR: Expected identifier but found "!"
+2:37:55 PM [vite] ✨ new dependencies optimized: lucide-react
+2:37:55 PM [vite] ✨ optimized dependencies changed. reloading

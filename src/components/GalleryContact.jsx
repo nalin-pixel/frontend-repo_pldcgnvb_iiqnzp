@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Instagram, Youtube, MessageCircleMore, Music2 } from 'lucide-react';
+import { Instagram, Youtube, MessageCircle, Music2 } from 'lucide-react';
 
 export default function GalleryContact() {
   const gallery = [
@@ -15,7 +15,7 @@ export default function GalleryContact() {
         <h3 className="text-2xl font-semibold tracking-tight sm:text-4xl">The Fusion — Tradition Meets Orbit.</h3>
 
         {/* Masonry-ish grid */}
-        <div className="mt-10 columns-1 gap-4 sm:columns-2 lg:columns-3 [column-fill:_balance]"><!-- eslint-disable-line react/no-unknown-property -->
+        <div className="mt-10 columns-1 gap-4 sm:columns-2 lg:columns-3 [column-fill:_balance]">
           {gallery.map((src, i) => (
             <motion.div
               key={i}
@@ -62,7 +62,7 @@ export default function GalleryContact() {
               <Youtube size={18} /> <span>YouTube</span>
             </a>
             <a href="#" className="group inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 hover:bg-white/5">
-              <MessageCircleMore size={18} /> <span>Threads</span>
+              <MessageCircle size={18} /> <span>Threads</span>
             </a>
             <a href="#" className="group inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 hover:bg-white/5">
               <Music2 size={18} /> <span>TikTok</span>
